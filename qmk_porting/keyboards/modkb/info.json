@@ -1,0 +1,63 @@
+{
+    "name": "ModKB",
+    "vendorId": "0xCAFE",
+    "productId": "0x0B92",
+    "matrix": {
+        "rows": 8,
+        "cols": 14
+    },
+    "layouts": {
+        "keymap": {
+            "layout": [
+                { "label": "Esc", "matrix": [0, 0] },
+                { "label": "Q", "matrix": [0, 1] },
+                { "label": "W", "matrix": [0, 2] },
+                { "label": "E", "matrix": [0, 3] },
+                { "label": "R", "matrix": [0, 4] },
+                { "label": "T", "matrix": [0, 5] },
+                { "label": "Y", "matrix": [0, 6] },
+                { "label": "U", "matrix": [0, 7] },
+                { "label": "I", "matrix": [0, 8] },
+                { "label": "O", "matrix": [0, 9] },
+                { "label": "P", "matrix": [0, 10] },
+                { "label": "Backspace", "matrix": [0, 11] },
+                { "label": "Tab", "matrix": [1, 0] },
+                { "label": "A", "matrix": [1, 1] },
+                { "label": "S", "matrix": [1, 2] },
+                { "label": "D", "matrix": [1, 3] },
+                { "label": "F", "matrix": [1, 4] },
+                { "label": "G", "matrix": [1, 5] },
+                { "label": "H", "matrix": [1, 6] },
+                { "label": "J", "matrix": [1, 7] },
+                { "label": "K", "matrix": [1, 8] },
+                { "label": "L", "matrix": [1, 9] },
+                { "label": "Semicolon", "matrix": [1, 10] },
+                { "label": "Enter", "matrix": [1, 11] },
+                { "label": "Caps", "matrix": [2, 0] },
+                { "label": "Z", "matrix": [2, 1] },
+                { "label": "X", "matrix": [2, 2] },
+                { "label": "C", "matrix": [2, 3] },
+                { "label": "V", "matrix": [2, 4] },
+                { "label": "B", "matrix": [2, 5] },
+                { "label": "N", "matrix": [2, 6] },
+                { "label": "M", "matrix": [2, 7] },
+                { "label": "Comma", "matrix": [2, 8] },
+                { "label": "Period", "matrix": [2, 9] },
+                { "label": "Slash", "matrix": [2, 10] },
+                { "label": "LShift", "matrix": [3, 0] },
+                { "label": "LCtrl", "matrix": [3, 1] },
+                { "label": "Win/GUI", "matrix": [3, 2] },
+                { "label": "LAlt", "matrix": [3, 3] },
+                { "label": "Space", "matrix": [3, 4] },
+                { "label": "F-Zone 1", "matrix": [5, 0], "w": 2 },
+                { "label": "F-Zone 2", "matrix": [5, 1] },
+                { "label": "F-Zone 3", "matrix": [5, 2] },
+                { "label": "F-Zone 4", "matrix": [5, 3] },
+                { "label": "PAD 1", "matrix": [6, 0], "w": 2 },
+                { "label": "PAD 2", "matrix": [6, 1] },
+                { "label": "PAD 3", "matrix": [6, 2] },
+                { "label": "PAD 4", "matrix": [6, 3] }
+            ]
+        }
+    }
+}

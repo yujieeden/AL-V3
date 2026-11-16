@@ -119,6 +119,15 @@ static void protocol_post_task()
 {
 }
 
+#ifdef RAW_ENABLE
+/* QMK main.c 在 RAW_ENABLE 下轮询 raw_hid_task()。本移植的 raw HID
+   由 CherryUSB 端点回调直接驱动（raw_hid_receive），无需轮询任务，
+   提供空实现以满足 main.c 的链接引用。 */
+__attribute__((weak)) void raw_hid_task(void)
+{
+}
+#endif
+
 __HIGH_CODE static void platform_run()
 {
     TMOS_SystemProcess();
